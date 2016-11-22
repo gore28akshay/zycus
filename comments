@@ -1,0 +1,6 @@
+Commands in docker file and their explanations
+
+RUN :- To install packahes using yum or run shell commands like ldconfig. Runs commands on top of current image and creates new layer.
+CMD :- Default command which will be executed when container is executed.
+EXPOSE :- Exposes a port from container to docker engine or host.
+FROM :- To install os from base image which is pulled from docker repo.
